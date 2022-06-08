@@ -1,0 +1,226 @@
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color:lightseagreen;
+    align-items: center;
+   
+    padding: 0px 20px;
+    height: 45px;
+  
+
+}
+
+nav .dash-board {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+nav .dash-board i {
+    position: relative;
+    padding-top: 28px;
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+   
+}
+
+
+h6 {
+    font-size: 15px;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+nav .container .log {
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+  
+
+}
+
+nav .container .reg {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+
+
+}
+
+nav p {
+    font-size: 11px;
+
+}
+
+nav img {
+    width: 80px;
+    color: #ffffff;
+}
+.icon-container {
+   background-color:  aqua;
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    position: relative;
+}
+
+i {
+    color: #ffffff;
+    position: absolute;
+    top: 9px;
+    left: 7px;
+}
+
+
+
+
+.adress-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    gap: 100px;
+   
+   
+    
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+h6 {
+    font-size: 15px;
+}
+
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    margin-top: 80px;
+}
+
+section h6 {
+    margin: 0;
+    padding: 0;
+}
+
+
+.address .head i {
+    color: aqua;
+    position: relative;
+    margin-bottom: 8px;
+}
+
+
+.address .head p {
+    
+    padding-top: 6px;
+}
+
+.mail i {
+
+    color: aqua;
+    position: relative;
+    margin-bottom: 12px;
+   
+
+
+}
+
+.address .head {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+.mail {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    gap: 30px;
+}
+
+
+.mail p {
+    padding-top: 5px;
+}
+
+
+
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:#dfddddf5;
+  
+   
+   
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+footer ul li {
+    list-style-type: none;
+  
+}
+
+footer img {
+    padding: 30px;
+  
+   
+}
+
+
+@media only screen and (max-width: 600px) {
+    
+    footer ul li {
+        font-size: 10px;
+    }
+
+    footer img {
+        width: 100px;
+      
+       
+    }
+    nav {
+        display: flex;
+        justify-content: space-between;
+        background-color:lightseagreen;
+        align-items: center;
+       
+        padding: 0px 0px;
+      
+    
+    }
+   
+   
+  }
