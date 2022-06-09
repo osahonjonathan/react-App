@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./navbar.css";
 
-const NavbarComponent = () => {
+const NavbarComponent = ({ showLogo }) => {
 	return (
 		<nav>
 			<div class="dash-board">
@@ -14,6 +14,9 @@ const NavbarComponent = () => {
 					<h6>CONTACTS</h6>
 				</Link>
 			</div>
+
+			{showLogo && <img src="/assets/images/logo-expanzo-white.svg" height="35px" alt="logo" />}
+
 
 			<div class="container">
 				<div class="log">

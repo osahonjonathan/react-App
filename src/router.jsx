@@ -8,7 +8,6 @@ import FooterComponent from "./components/footer/footer"
 const AppRouter = () => {
 	return (
 		<Fragment>
-			<NavbarComponent />
 			<Routes>
 				<Route exact path="/" element={<HomePageComponent />} />
 				<Route path="/contact" element={<ContactPageComponent />} />
