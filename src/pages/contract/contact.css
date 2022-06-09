@@ -1,0 +1,84 @@
+.fa-solid {
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	display: var(--fa-display, inline-block);
+	font-style: normal;
+	font-variant: normal;
+	line-height: 1;
+	text-rendering: auto;
+}
+.fa-envelope:before {
+	content: "\f0e0";
+}
+.fa-location-dot:before {
+	content: "\f3c5";
+}
+.fa-solid {
+	font-family: "Font Awesome 6 Free";
+	font-weight: 900;
+}
+h6 {
+	font-size: 15px;
+}
+i {
+	color: #ffffff;
+	position: absolute;
+	top: 9px;
+	left: 7px;
+}
+.adress-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	gap: 100px;
+}
+p {
+	padding: 0;
+	margin: 0;
+}
+h6 {
+	font-size: 15px;
+}
+section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 300px;
+	margin-top: 80px;
+}
+section h6 {
+	margin: 0;
+	padding: 0;
+}
+.address .head i {
+	color: aqua;
+	position: relative;
+	margin-bottom: 8px;
+}
+.address .head p {
+	padding-top: 6px;
+}
+.mail i {
+	color: aqua;
+	position: relative;
+	margin-bottom: 12px;
+}
+.address .head {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 15px;
+	align-items: center;
+	justify-content: center;
+	gap: 30px;
+}
+.mail {
+	display: flex;
+	justify-content: space-between;
+	margin: 0;
+	padding: 0;
+	gap: 30px;
+}
+.mail p {
+	padding-top: 5px;
+}

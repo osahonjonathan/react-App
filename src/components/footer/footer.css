@@ -1,0 +1,25 @@
+footer {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	background-color: #dfddddf5;
+}
+footer ul {
+	display: flex;
+	justify-content: space-between;
+	width: 300px;
+}
+footer ul li {
+	list-style-type: none;
+}
+footer img {
+	padding: 30px;
+}
+@media only screen and (max-width: 600px) {
+	footer ul li {
+		font-size: 10px;
+	}
+	footer img {
+		width: 100px;
+	}
+}
